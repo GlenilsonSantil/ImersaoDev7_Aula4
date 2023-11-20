@@ -1,0 +1,123 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://th.bing.com/th/id/R.546ca87919608aa7032aa378be456d08?rik=1pyyOk5v9FHZ1A&pid=ImgRaw&r=0");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 10px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#listaFilmes img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 250px;
+    border-radius: 10px;
+}
+
+#listaFilmes
+{
+    /*background-color: #da1e26;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.form-wrapper {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.form-wrapper input {
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 15px;
+}
+
+.form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #da1e26;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+    opacity: 0.8;
+}
+
+input
+{
+    margin-top: 20px;
+}
+
+.filmeEspecifico
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: fit-content;
+}
+
+.filmeEspecifico>p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+.botaoExcluir
+{
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: none;
+    display: block;
+    position: relative;
+    top: -5px;;
+    right: 0;
+    left: 90%;
+    background-color: white;
+    border: #ffffff;
+}
