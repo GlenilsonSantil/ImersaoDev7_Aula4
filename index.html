@@ -1,0 +1,35 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+    <title>Imersão Dev</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Aluraflix
+        </h1>
+        <img src="img/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+        <p class="page-subtitle">
+            Qual seu filme favorito?
+        </p>
+        <div class="form-wrapper">
+            <input type="text" id="nome" name="nome" placeholder="Insira o nome no filme">
+            <input type="text" id="filme" name="filme" placeholder="Insira o link do poster">
+            <input type="text" id="trailer" name="trailer" placeholder="Insira o link do trailer">
+            <button onClick="adicionarFilme('abc')">Adicionar Filme</button>
+        </div>
+    </div>
+    <div id="listaFilmes"></div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="img/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
